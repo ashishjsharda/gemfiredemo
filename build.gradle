@@ -17,6 +17,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-gemfire'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web-services'
+    implementation group: 'org.springframework.data', name: 'spring-data-gemfire', version: '2.3.9.RELEASE'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
